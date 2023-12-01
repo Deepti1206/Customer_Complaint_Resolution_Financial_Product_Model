@@ -1,6 +1,6 @@
 # Predicting Consumer Complaint Resolution using Classification Model
 
-<img src="https://github.com/Deepti1206/Predicting_Customer_Cancellation_Telecom_Services/blob/main/Images/churn.png" width="600" height="200">
+<img src="https://github.com/Deepti1206/Customer_Complaint_Resolution_Financial_Product_Model/blob/main/Images/Screenshot%202023-11-30%20at%208.16.39%20PM.png" width="900" height="700">
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -8,6 +8,7 @@
 - [Data Pre-processing](#data-pre-processing)
 - [Model Fitting and Statistical Analysis](#model-fitting-and-statistical-analysis)
 - [Findings and Conclusion](#findings-and-conclusion)
+- [Tableau](#tableau)
 
 ## Introduction
 
@@ -451,6 +452,7 @@ print(auc)
 We check the model prediction using the measure ‘Area under curve ROC curve’ (AUC). As observed that the AUC of the random forest is 0.5. This means that the model might not be able to distinguish between positive and negative outcomes correctly.
 Through the Variable important plot in Figure -3, it can be seen that the topmost important feature is Product which aligns with our assumption. The other important variables by order can also observed.
 
+<img src="https://github.com/Deepti1206/Customer_Complaint_Resolution_Financial_Product_Model/blob/main/Images/thyj-1.png" width="650" height="500">
 
 ## Findings and Conclusion
 
@@ -471,6 +473,10 @@ After performing the exploratory analysis and building a prediction model, the f
 
 The major challenges faced in this project are in developing the hypothesis, uncleaned dataset and the large volume data. The initial assumptions made by looking at the data were revisited multiple times when we started exploring the data. During exploratory analysis, we realized that the data gives information on ‘Complaint Resolution’ status and not the ‘Timely Response’, which was our initial assumption. As we framed our final hypothesis, the next challenge we faced is on building the model on the large and uncleaned data. We had to check and remove the irrelevant and missing values from the data that we did in Data Pre-processing step. Lastly, the challenge was to deal with the large amount of data. The data has nearly 1 million rows i.e. it is a high cardinality data. The model took a large space and longer run time than usual. We had to perform feature engineering and data cleaning in order to predict accurately and reduce the run time of the model.
 
+## Tableau
+
+Tableau link for a Complaint Dashboarrd - https://public.tableau.com/app/profile/deepti.vijay.khandagale/viz/ComplaintAnalysisofCallCenterOCT22/Dashboard1
+
 ## References
 
 [1] Our mission and values. (n.d.). Tableau. Retrieved November 6, 2022, from https://www.tableau.com/about/mission-values
@@ -478,4 +484,5 @@ The major challenges faced in this project are in developing the hypothesis, unc
 [3] Consumer Complaint Database. (n.d.-b). Consumer Financial Protection Bureau. Retrieved September 18, 2022, from https://www.consumerfinance.gov/data-research/consumer-complaints/ 
 [4] R: The R Project for Statistical Computing. (n.d.). Retrieved September 18, 2022, from https://www.r-project.org/ 
 [5] James,G., Witten, D., Hastie, T., and Tibshirani, R. (2013) An Introduction to Statistical Learning with applications in R, https://www.statlearning.com, Springer-Verlag, New York
+[6] Taleau Public. Retrived fromm "https://public.tableau.com/"
 

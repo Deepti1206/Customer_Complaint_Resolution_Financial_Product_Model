@@ -1,5 +1,14 @@
 # Predicting Consumer Complaint Resolution using Classification Model
 
+<img src="https://github.com/Deepti1206/Predicting_Customer_Cancellation_Telecom_Services/blob/main/Images/churn.png" width="600" height="200">
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Key Question and Hypothesis](#key-question-and-hypothesis)
+- [Data Pre-processing](#data-pre-processing)
+- [Model Fitting and Statistical Analysis](#model-fitting-and-statistical-analysis)
+- [Findings and Conclusion](#findings-and-conclusion)
+
 ## Introduction
 
 The Consumer Financial Protection Bureau (CFPB) receives consumer complaints about the financial product and with the consent of the consumer, they publish them on the website (data.gov). The data contains different variables such as Company name, products, types of issues, timely resolution, company response to consumers (resolution status), etc. For this project, we will consider a one-year complaint database from January 2021 to August 2022. The data contains 996,046 rows and 19 columns. We will be using ‘Tableau’ to perform exploratory analysis and visualization, and ‘R programming’ to perform statistical analysis and model building.
@@ -461,3 +470,12 @@ After performing the exploratory analysis and building a prediction model, the f
 ## Challenges
 
 The major challenges faced in this project are in developing the hypothesis, uncleaned dataset and the large volume data. The initial assumptions made by looking at the data were revisited multiple times when we started exploring the data. During exploratory analysis, we realized that the data gives information on ‘Complaint Resolution’ status and not the ‘Timely Response’, which was our initial assumption. As we framed our final hypothesis, the next challenge we faced is on building the model on the large and uncleaned data. We had to check and remove the irrelevant and missing values from the data that we did in Data Pre-processing step. Lastly, the challenge was to deal with the large amount of data. The data has nearly 1 million rows i.e. it is a high cardinality data. The model took a large space and longer run time than usual. We had to perform feature engineering and data cleaning in order to predict accurately and reduce the run time of the model.
+
+## References
+
+[1] Our mission and values. (n.d.). Tableau. Retrieved November 6, 2022, from https://www.tableau.com/about/mission-values
+[2] Consumer Complaint Database - Catalog. (n.d.). Retrieved September 18, 2022, from https://catalog.data.gov/dataset/consumer-complaint-database. 
+[3] Consumer Complaint Database. (n.d.-b). Consumer Financial Protection Bureau. Retrieved September 18, 2022, from https://www.consumerfinance.gov/data-research/consumer-complaints/ 
+[4] R: The R Project for Statistical Computing. (n.d.). Retrieved September 18, 2022, from https://www.r-project.org/ 
+[5] James,G., Witten, D., Hastie, T., and Tibshirani, R. (2013) An Introduction to Statistical Learning with applications in R, https://www.statlearning.com, Springer-Verlag, New York
+

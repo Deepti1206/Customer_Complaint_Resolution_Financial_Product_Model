@@ -1,4 +1,4 @@
-# Customer_Complaint_Resolution_Fianancial_Product_Model
+# Customer_Complaint_Resolution_Financial_Product_Model
 
 ## Introduction
 

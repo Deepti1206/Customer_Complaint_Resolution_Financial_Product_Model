@@ -1,6 +1,6 @@
 # Predicting Consumer Complaint Resolution using Classification Model
 
-<img src="https://github.com/Deepti1206/Customer_Complaint_Resolution_Financial_Product_Model/blob/main/Images/Screenshot%202023-11-30%20at%208.16.39%20PM.png" width="900" height="650">
+<img src="https://github.com/Deepti1206/Customer_Complaint_Resolution_Financial_Product_Model/blob/main/Images/Screenshot%202024-04-17%20at%203.31.32%20PM.png" width="900" height="650">
 
 ## Table of Contents
 - [Introduction](#introduction)
